@@ -25,22 +25,37 @@
 <body>
     <header>
         <nav
-            class="w-10/12 m-auto my-12 md:my-12 lg:my-12 lg:py-14 lg:px-16 flex flex-col-reverse lg:flex lg:flex-row justify-between items-center lg:bg-red-500 lg:rounded-s-full lg:rounded-e-full lg:text-white">
+            class="w-10/12 m-auto my-12 md:my-12 lg:my-12 lg:py-14 lg:px-16 flex flex-row-reverse lg:flex lg:flex-row justify-between items-center lg:bg-red-500 lg:rounded-s-full lg:rounded-e-full lg:text-white">
 
-            <div class="lg:flex list-none text-center">
+            <div class="hidden lg:block lg:flex list-none text-center">
                 <li class="lg:mr-7 text-lg"><a href="">Home</a></li>
-                <hr class="lg:hidden">
                 <li class="lg:mr-7 text-lg"><a href="">About Us</a></li>
-                <hr class="lg:hidden">
                 <li class="lg:mr-7 text-lg"><a href="">Shop</a></li>
-                <hr class="lg:hidden">
                 <li class="text-lg"><a href="">All Fruits</a></li>
-                <hr class="lg:hidden">
             </div>
+
+
+            <details class="dropdown lg:hidden">
+                <summary class="m-1 btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+                        <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+                    </svg>
+                </summary>
+                <ul class="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                    <li><a class="hover:none"><div class="rounded-s-full rounded-e-full  relative w-20">
+                        <input type="search" class=" py-2 rounded-s-full rounded-e-full w-20">
+                        <i class="fa-solid fa-magnifying-glass text-xl absolute  top-1 left-7 text-slate-400"></i>
+                    </div></a></li>
+                </ul>
+            </details>
 
             <div class="flex items-center">
                 <img class="mr-4" src="./images/logo.png" alt="">
-                <h1 class="text-4xl ">Fruit Burst</h1>
+                <h1 class="text-2xl lg:text-4xl ">Fruit Burst</h1>
             </div>
 
             <div class="hidden lg:inline w-10/12 lg:w-4/12 bg-slate-500  rounded-s-full rounded-e-full  relative">
@@ -48,6 +63,7 @@
                 <i class="fa-solid fa-magnifying-glass text-xl absolute  bottom-3 right-8 text-slate-400"></i>
             </div>
         </nav>
+        <div class="relative">
         <section class="w-10/12 m-auto rounded-s-md rounded-e-md">
             <div class="carousel w-full ">
                 <div id="slide1" class="carousel-item relative w-full">
@@ -129,10 +145,31 @@
                                 Shop Now
                             </button>
                         </div>
-
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="hidden lg:block md:block w-8/12 m-auto bg-white px-12 py-8 lg:flex md:flex justify-between rounded-s-md rounded-e-md absolute -bottom-28 inset-x-2 drop-shadow-xl">
+            <div>
+                <img src="./images/fruit1.png" alt="">
+                <p>Strawberry</p>
+            </div>
+            <div>
+                <img src="./images/fruit2.png" alt="">
+                <p>Orange</p>
+            </div>
+            <div>
+                <img src="./images/fruit3.png" alt="">
+                <p>Mango</p>
+            </div>
+            <div>
+                <img src="./images/fruit4.png" alt="">
+                <p>Strawberry</p>
+            </div>
+            <div>
+                <img src="./images/fruit5.png" alt="">
+                <p>Mango</p>
             </div>
         </section>
     </header>
