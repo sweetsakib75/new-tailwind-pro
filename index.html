@@ -46,16 +46,19 @@
                     <li><a>About Us</a></li>
                     <li><a>Shop</a></li>
                     <li><a>All Fruits</a></li>
-                    <li><a class="hover:none"><div class="rounded-s-full rounded-e-full  relative w-20">
-                        <input type="search" class=" py-2 rounded-s-full rounded-e-full w-20">
-                        <i class="fa-solid fa-magnifying-glass text-xl absolute  top-1 left-7 text-slate-400"></i>
-                    </div></a></li>
+                    <li><a class="hover:none">
+                            <div class="rounded-s-full rounded-e-full  relative w-20">
+                                <input type="search" class=" py-2 rounded-s-full rounded-e-full w-20">
+                                <i
+                                    class="fa-solid fa-magnifying-glass text-xl absolute  top-1 left-7 text-slate-400"></i>
+                            </div>
+                        </a></li>
                 </ul>
             </details>
 
             <div class="flex items-center">
                 <img class="mr-4" src="./images/logo.png" alt="">
-                <h1 class="text-2xl lg:text-4xl ">Fruit Burst</h1>
+                <h1 class="text-2xl lg:text-4xl font-bold">Fruit Burst</h1>
             </div>
 
             <div class="hidden lg:inline w-10/12 lg:w-4/12 bg-slate-500  rounded-s-full rounded-e-full  relative">
@@ -64,120 +67,150 @@
             </div>
         </nav>
         <div class="relative">
-        <section class="w-10/12 m-auto rounded-s-md rounded-e-md">
-            <div class="carousel w-full ">
-                <div id="slide1" class="carousel-item relative w-full">
-                    <img src="./images/banner1.png" class="w-full" />
-                    <div
-                        class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
-                        <a href="#slide4" class="btn btn-circle">❮</a>
-                        <div class="w-3/5 m-auto text-center text-white">
-                            <h1 class=" font-bold text-1xl lg:font-extrabold lg:text-6xl lg:mb-6">
-                                Exotic tastes at your doorstep
-                            </h1>
-                            <p class="text-xs lg:text-2xl font-thin lg:font-normal lg:mb-6 w-full">
-                                We supply highly quality organic products
-                            </p>
-                            <button
-                                class="px-2 py-1 rounded-s-md rounded-e-md lg:px-7 lg:py-5 bg-red-500 border-none text-white text-xs lg:text-xl normal-case font-thin lg:font-semibold">
-                                Shop Now
-                            </button>
+            <section class="w-10/12 m-auto rounded-s-md rounded-e-md">
+                <div class="carousel w-full ">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="./images/banner1.png" class="w-full" />
+                        <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <div class="w-3/5 m-auto text-center text-white">
+                                <h1 class=" font-bold text-1xl lg:font-extrabold lg:text-6xl lg:mb-6">
+                                    Exotic tastes at your doorstep
+                                </h1>
+                                <p class="text-xs lg:text-2xl font-thin lg:font-normal lg:mb-6 w-full">
+                                    We supply highly quality organic products
+                                </p>
+                                <button
+                                    class="px-2 py-1 rounded-s-md rounded-e-md lg:px-7 lg:py-5 bg-red-500 border-none text-white text-xs lg:text-xl normal-case font-thin lg:font-semibold">
+                                    Shop Now
+                                </button>
+                            </div>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
                         </div>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
-                </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                    <img src="./images/banner2.png" class="w-full" />
-                    <div
-                        class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <div class="w-3/5 m-auto text-center text-white">
-                            <h1 class=" font-bold text-1xl lg:font-extrabold lg:text-6xl lg:mb-6">
-                                Exotic tastes at your doorstep
-                            </h1>
-                            <p class="text-xs lg:text-2xl font-thin lg:font-normal lg:mb-6 w-full">
-                                We supply highly quality organic products
-                            </p>
-                            <button
-                                class="px-2 py-1 rounded-s-md rounded-e-md lg:px-7 lg:py-5 bg-red-500 border-none text-white text-xs lg:text-xl normal-case font-thin lg:font-semibold">
-                                Shop Now
-                            </button>
-                        </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="./images/banner2.png" class="w-full" />
+                        <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <div class="w-3/5 m-auto text-center text-white">
+                                <h1 class=" font-bold text-1xl lg:font-extrabold lg:text-6xl lg:mb-6">
+                                    Exotic tastes at your doorstep
+                                </h1>
+                                <p class="text-xs lg:text-2xl font-thin lg:font-normal lg:mb-6 w-full">
+                                    We supply highly quality organic products
+                                </p>
+                                <button
+                                    class="px-2 py-1 rounded-s-md rounded-e-md lg:px-7 lg:py-5 bg-red-500 border-none text-white text-xs lg:text-xl normal-case font-thin lg:font-semibold">
+                                    Shop Now
+                                </button>
+                            </div>
 
-                        <a href="#slide3" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                    <img src="./images/banner3.png" class="w-full" />
-                    <div
-                        class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <div class="w-3/5 m-auto text-center text-white">
-                            <h1 class=" font-bold text-1xl lg:font-extrabold lg:text-6xl lg:mb-6">
-                                Exotic tastes at your doorstep
-                            </h1>
-                            <p class="text-xs lg:text-2xl font-thin lg:font-normal lg:mb-6 w-full">
-                                We supply highly quality organic products
-                            </p>
-                            <button
-                                class="px-2 py-1 rounded-s-md rounded-e-md lg:px-7 lg:py-5 bg-red-500 border-none text-white text-xs lg:text-xl normal-case font-thin lg:font-semibold">
-                                Shop Now
-                            </button>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
                         </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="./images/banner3.png" class="w-full" />
+                        <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <div class="w-3/5 m-auto text-center text-white">
+                                <h1 class=" font-bold text-1xl lg:font-extrabold lg:text-6xl lg:mb-6">
+                                    Exotic tastes at your doorstep
+                                </h1>
+                                <p class="text-xs lg:text-2xl font-thin lg:font-normal lg:mb-6 w-full">
+                                    We supply highly quality organic products
+                                </p>
+                                <button
+                                    class="px-2 py-1 rounded-s-md rounded-e-md lg:px-7 lg:py-5 bg-red-500 border-none text-white text-xs lg:text-xl normal-case font-thin lg:font-semibold">
+                                    Shop Now
+                                </button>
+                            </div>
 
-                        <a href="#slide4" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide4" class="carousel-item relative w-full">
-                    <img src="./images/banner4.png" class="w-full" />
-                    <div
-                        class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
-                        <a href="#slide3" class="btn btn-circle">❮</a>
-                        <div class="w-3/5 m-auto text-center text-white">
-                            <h1 class=" font-bold text-1xl lg:font-extrabold lg:text-6xl lg:mb-6">
-                                Exotic tastes at your doorstep
-                            </h1>
-                            <p class="text-xs lg:text-2xl font-thin lg:font-normal lg:mb-6 w-full">
-                                We supply highly quality organic products
-                            </p>
-                            <button
-                                class="px-2 py-1 rounded-s-md rounded-e-md lg:px-7 lg:py-5 bg-red-500 border-none text-white text-xs lg:text-xl normal-case font-thin lg:font-semibold">
-                                Shop Now
-                            </button>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
                         </div>
-                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="./images/banner4.png" class="w-full" />
+                        <div
+                            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <div class="w-3/5 m-auto text-center text-white">
+                                <h1 class=" font-bold text-1xl lg:font-extrabold lg:text-6xl lg:mb-6">
+                                    Exotic tastes at your doorstep
+                                </h1>
+                                <p class="text-xs lg:text-2xl font-thin lg:font-normal lg:mb-6 w-full">
+                                    We supply highly quality organic products
+                                </p>
+                                <button
+                                    class="px-2 py-1 rounded-s-md rounded-e-md lg:px-7 lg:py-5 bg-red-500 border-none text-white text-xs lg:text-xl normal-case font-thin lg:font-semibold">
+                                    Shop Now
+                                </button>
+                            </div>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="hidden lg:block md:block w-8/12 m-auto bg-white px-12 py-8 lg:flex md:flex justify-between rounded-s-md rounded-e-md absolute -bottom-28 inset-x-2 drop-shadow-xl">
-            <div>
-                <img src="./images/fruit1.png" alt="">
-                <p>Strawberry</p>
-            </div>
-            <div>
-                <img src="./images/fruit2.png" alt="">
-                <p>Orange</p>
-            </div>
-            <div>
-                <img src="./images/fruit3.png" alt="">
-                <p>Mango</p>
-            </div>
-            <div>
-                <img src="./images/fruit4.png" alt="">
-                <p>Strawberry</p>
-            </div>
-            <div>
-                <img src="./images/fruit5.png" alt="">
-                <p>Mango</p>
-            </div>
-        </section>
+            </section>
+            <section
+                class="hidden lg:block md:block w-8/12 m-auto bg-white px-12 py-8 lg:flex md:flex justify-between rounded-s-md rounded-e-md absolute -bottom-28 inset-x-2 drop-shadow-xl">
+                <div>
+                    <img src="./images/fruit1.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div>
+                    <img src="./images/fruit2.png" alt="">
+                    <p>Orange</p>
+                </div>
+                <div>
+                    <img src="./images/fruit3.png" alt="">
+                    <p>Mango</p>
+                </div>
+                <div>
+                    <img src="./images/fruit4.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div>
+                    <img src="./images/fruit5.png" alt="">
+                    <p>Mango</p>
+                </div>
+            </section>
     </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <main>
 
     </main>
-    <footer>
+    <footer class="bg-black w-full py-20 lg:py-36 flex flex-col justify-center text-white">
+        <div class="m-auto">
+            <div class="m-auto flex items-center justify-center">
+                <img class="mr-4" src="./images/logo.png" alt="">
+                <h1 class="text-2xl lg:text-4xl font-bold">Fruit Burst</h1>
+            </div>
 
+            <div class="my-10 list-none flex flex-wrap justify-center gap-x-10 text-sm font-light">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">All fruits</a></li>
+                <li><a href="">Support</a></li>
+                <li><a href="">My Account</a></li>
+            </div>
+            <div class="w-10/12 lg:w-6/12 m-auto list-none flex gap-x-8 lg:gap-x-10 justify-around text-2xl">
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-apple"></i></a></li>
+            </div>
+        </div>
     </footer>
 </body>
 
